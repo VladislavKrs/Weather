@@ -1,0 +1,124 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    height: 100vh;
+    font-family: Montserrat sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container {
+    background-color: blue;
+    width: 30%;
+    height: auto;
+    padding: 22px 24px;
+    overflow: hidden;
+    border-radius: 14px;
+    transition: 0.5s ease-out;
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.search-box input {
+    color: rgb(119, 120, 192);
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 1px solid rgb(74, 74, 209);
+    margin: 0 16px;
+}
+
+.search-box input::placeholder {
+    color: rgb(74, 74, 209);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.search-box button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(74, 74, 209);
+    background-color: rgb(249, 247, 250);
+    font-size: 20px;
+}
+.search-box button:hover {
+    background-color: rgb(71, 71, 150);
+}
+
+.fa-location-dot{
+    color: white;
+    font-size: 36px;
+}
+
+.weather {
+    text-align: center;
+    color: white;
+    display: none;
+    margin-top: 20px;
+}
+
+.weather h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.weather h2 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.weather-image {
+    font-size: 52px;
+    margin-bottom: 12px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.fa-water {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.humidity{
+    margin-bottom: 10px;
+}
+
+.fa-wind{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.wind {
+    margin-bottom: 10px;
+}
+
+.error {
+    display: none;
+    color: red;
+    text-align: center;
+    margin-top: 26px;
+}
