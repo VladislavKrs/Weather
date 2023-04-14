@@ -1,0 +1,32 @@
+{
+  "name": "weather-forecast-vladkrs",
+  "version": "1.0.0",
+  "description": "Weather forecast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavKrs/Weather.git"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "VladKrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavKrs/Weather/issues"
+  },
+  "homepage": "https://github.com/VladislavKrs/Weather#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7"
+  }
+}
